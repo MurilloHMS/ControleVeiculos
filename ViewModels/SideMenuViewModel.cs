@@ -3,7 +3,6 @@ using System.Collections.ObjectModel;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows;
-using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace ControleVeiculos.ViewModels
 {
@@ -71,8 +70,8 @@ namespace ControleVeiculos.ViewModels
             {
                 switch (subcategoryName)
                 {
-                    case "Produtos":
-                        _navigationFrame.Navigate(new Uri("Views/Pages/CadastroProdutos.xaml", UriKind.Relative));
+                    case "Veiculos":
+                        _navigationFrame.Navigate(new Uri("Views/Pages/CadastroVeiculoPage.xaml", UriKind.Relative));
                         break;
                     case "Fornecedores":
                         _navigationFrame.Navigate(new Uri("Views/SubcategoryPage2.xaml", UriKind.Relative));

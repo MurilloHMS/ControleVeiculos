@@ -9,6 +9,6 @@
       Title="CadastroVeiculo">
 
     <Grid>
-        
+        <TextBlock Text="teste" HorizontalAlignment="center" VerticalAlignment="Center" FontSize="40" FontFamily="ubuntu" Foreground="AliceBlue" Background="Blue"/>
     </Grid>
 </Page>

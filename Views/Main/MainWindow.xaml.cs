@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using ControleVeiculos.ViewModels;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,5 +20,10 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+
+        if (DataContext is SideMenuViewModel viewModel)
+        {
+            viewModel.NavigationFrame = MainFrame;
+        }
     }
 }
