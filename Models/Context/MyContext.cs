@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Configuration;
 
-namespace ControleVeiculos.Models.Entity.Context
+namespace ControleVeiculos.Models.Context
 {
     internal class MyContext : DbContext
     {
